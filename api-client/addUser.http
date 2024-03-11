@@ -1,0 +1,11 @@
+### Add User
+POST {{host}}/user/addUser
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "nomutilisateur",
+  "userPassword": "motdepasse123",
+  "address": "22 rue des Jardins, Cocody",
+  "city": "Abidjan"
+}
